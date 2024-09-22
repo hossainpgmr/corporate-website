@@ -1,8 +1,15 @@
+@import "nav";
+@import "footer";
+@import "main";
 
-
+body {
+  background-color: #ddd;
+}
+.margin {
+  margin-top: 80px;
+}
 // import file sass bootstrap
 
 // Include any default variable overrides here (though functions won't be available)
 
 @import "../node_modules/bootstrap/scss/bootstrap";
-
