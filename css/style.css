@@ -15,9 +15,50 @@
   margin-top: 80px;
 }
 
+footer a {
+  text-decoration: none;
+  color: #333;
+}
+
+.social-icon {
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  color: #333;
+  margin-right: 0.25px;
+}
+
+.form-group:hover, .form-group:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.form-control {
+  border: 1px solid #ddd;
+  padding: 2.25px;
+}
+
+.input-group-append {
+  display: flex;
+  align-items: center;
+  padding: 3px;
+}
+
+.btn-ok {
+  background-image: linear-gradient(to right, #2d5796, #004a7c, #006289, #007a90, #24868a);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 main {
-  width: 100vw;
-  height: 80vh;
+  height: 70vh;
 }
 
 body {
