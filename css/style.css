@@ -6,7 +6,7 @@
 .download {
   outline: none;
   border: none;
-  background-image: linear-gradient(to right, #2d5796, #004a7c, #006289, #007a90, #24868a);
+  background-image: linear-gradient(to right, #1eb0ea, #21a6bd, #10c9d0);
   color: #fff;
   padding: 2px;
 }
@@ -50,7 +50,7 @@ footer a {
 }
 
 .btn-ok {
-  background-image: linear-gradient(to right, #2d5796, #004a7c, #006289, #007a90, #24868a);
+  background-image: linear-gradient(to right, #1eb0ea, #21a6bd, #10c9d0);
   border: none;
   padding: 10px 20px;
   font-size: 16px;
@@ -59,6 +59,16 @@ footer a {
 
 main {
   height: 70vh;
+}
+
+.hero-section {
+  width: 100vw;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-image: url(/assets/hero.jpg);
+  padding: 12% 0;
+  margin-bottom: 5rem;
 }
 
 body {
