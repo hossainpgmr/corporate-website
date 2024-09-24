@@ -3,11 +3,18 @@
 @import "main";
 @import "caroseal";
 @import "hero";
-
+@import "cta";
+@import "specification";
 
 body {
   background-color: #ddd;
-
+}
+body p::selection {
+  background-color: #333;
+  color: #ddd;
+}
+.btn:hover {
+  background-image: linear-gradient(to right, #10c9d0, #21a6bd, #1eb0ea);
 }
 
 .margin {

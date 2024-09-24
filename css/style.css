@@ -71,8 +71,54 @@ main {
   margin-bottom: 5rem;
 }
 
+.btn-hero {
+  background-image: linear-gradient(to right, #1eb0ea, #21a6bd, #10c9d0);
+}
+
+.btn-cta {
+  background-image: linear-gradient(to right, #1eb0ea, #21a6bd, #10c9d0);
+}
+
+.cta-section {
+  padding: 60px 0px;
+  background-color: rgba(79, 232, 255, 0.3254901961);
+}
+
+.specification-section {
+  padding: 60px 0;
+}
+
+.specification ul {
+  list-style: none;
+  padding-left: 40px;
+}
+
+.specification li {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.specification li::before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 1rem;
+  content: "\f00c";
+  position: absolute;
+  left: -35px;
+  margin-top: -2px;
+  color: #00ffff;
+}
+
 body {
   background-color: #ddd;
+}
+
+body p::selection {
+  background-color: #333;
+  color: #ddd;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to right, #10c9d0, #21a6bd, #1eb0ea);
 }
 
 .margin {
