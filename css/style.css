@@ -105,6 +105,72 @@ footer a {
   cursor: pointer;
 }
 
+.btn-pricing {
+  padding: 1rem 2rem !important;
+  color: #ddd !important;
+  background-image: linear-gradient(to right, #1eb0ea, #21a6bd, #10c9d0);
+}
+
+.pricing-section {
+  margin-bottom: 10rem;
+}
+
+.pricing-card {
+  background-color: #ddd;
+  padding-bottom: 1rem;
+  position: relative;
+}
+
+.pricing-header {
+  padding: 5rem 3.5rem;
+  color: #fff;
+}
+
+.personal {
+  background-color: #1eb0ea;
+}
+
+.professional {
+  background-color: #21a6bd;
+}
+
+.business {
+  background-color: #10c9d0;
+}
+
+.pricing-body {
+  margin: 5rem 3rem;
+  margin-bottom: 0;
+}
+
+.pricing-list {
+  list-style-type: none;
+  margin-bottom: 3rem;
+}
+
+.pricing-list li {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.pricing-list li::before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 1rem;
+  content: "\f00c";
+  position: absolute;
+  left: -35px;
+  margin-top: -2px;
+  color: #4eaaaa;
+  cursor: pointer;
+}
+
+.pricing-footer {
+  margin: 0 2rem;
+  position: absolute;
+  left: 25%;
+  bottom: -25px;
+}
+
 body {
   background-color: #ddd;
 }
