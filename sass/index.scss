@@ -1,6 +1,5 @@
 @import "nav";
 @import "footer";
-@import "main";
 @import "caroseal";
 @import "hero";
 @import "cta";
@@ -10,8 +9,8 @@ body {
   background-color: #ddd;
 }
 body p::selection {
-  background-color: #333;
-  color: #ddd;
+  background-color: #10c9d0;
+  color: #fff;
 }
 .btn:hover {
   background-image: linear-gradient(to right, #10c9d0, #21a6bd, #1eb0ea);
