@@ -114,6 +114,10 @@ body p::selection {
   color: #fff;
 }
 
+body a {
+  cursor: pointer;
+}
+
 .btn:hover {
   background-image: linear-gradient(to right, #10c9d0, #21a6bd, #1eb0ea);
 }
