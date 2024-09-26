@@ -171,6 +171,34 @@ footer a {
   bottom: -25px;
 }
 
+.form-control {
+  padding: 0.5rem 1rem !important;
+  color: #333;
+  letter-spacing: 0.25px;
+  text-transform: capitalize;
+  opacity: 8;
+}
+
+.btn-contact {
+  background-image: linear-gradient(to right, #1eb0ea, #21a6bd, #10c9d0);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-section {
+  padding: 10rem 0;
+  background-color: rgba(240, 238, 238, 0.2666666667);
+}
+
+.contact-section form input:focus,
+.contact-section form input:active {
+  outline: 0px !important;
+  box-shadow: none !important;
+  border: solid 1px rgba(33, 166, 189, 0.2) !important;
+}
+
 body {
   background-color: #ddd;
 }
